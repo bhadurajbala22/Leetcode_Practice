@@ -1,0 +1,25 @@
+//largest element in an array using a max variable
+
+//Approach: 
+
+    /*  1. Create a max variable and initialized it with arr[0](first index of the array).
+        2. used a for loop and compared it with the other elements in the array.
+        3. if element is greater than the max value then we updated the max value by that index element.
+        4.and at last returned/printed the max variable value.
+
+    
+class Solution
+{
+public:
+    int largest(vector<int> &arr, int n)
+    {
+        int max=arr[0];
+        n=arr.size();
+        for(int i=0;i<n;i++)
+        if(arr[i]>max)
+        {
+        max=arr[i];
+        }
+        return max;
+    }
+};
