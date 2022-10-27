@@ -17,7 +17,6 @@ public:
             }
         }
         
-        //else for nums.size() == 1
         return nums[0]; 
     }
 };
